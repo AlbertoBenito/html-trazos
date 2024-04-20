@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    max-width: 100%;
+  }
+  a {
+    text-decoration: none;
+    font-family: "Josefin sans";
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #00509d;
+    border-bottom:  5px solid #fdc500;
+    
+  }
+  body{
+    background-color: #00519ddf;
+  }
+  nav{
+    background-color: #fdc500;
+  }
+  nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #00509d;
+  }
+  nav a:hover {
+    background-color:#00509d;
+    color: #fdc500;
+  }
+  .dflex {
+    display:flex;
+  }
+
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .contenedor-25{
+    width: 25%;
+  }
+  .ficha{
+    border: 5px solid #fdc500;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+  }
+  .contenedor-100{
+    width: 100%;
+    margin: 40px auto;
+    align-items: center;
+  }
+
+.centrado{
+  text-align: center;
+}
+  .contenedor-80{
+    width: 80%;
+    margin: 40px auto;
+  }
+  .contenedor-90{
+    width: 90%;
+    margin: 40px auto;
+    
+  }
+  .contenedor-33{
+    width: 33,3%;
+  }
+  
+  .centrar{
+    align-items: center;
+   }
+  h2{
+    margin: 30px;
+    font-family: "Josefin sans";
+  }
+  h3{
+    margin: 30px;
+    font-family: "Josefin sans";
+  }
+  p{
+    margin:  30px;
+    font-family: sans-serif;
+  }
+ 
+  
+  iframe{
+    border-radius: 10px;
+  }
+  .margenayab{
+     margin: 20px 0
+  }
+  .margenp{
+    margin: 10px 20px;
+    box-sizing: 200px;
+    
+  }
+  .margeniz0{
+    margin-left: 0px;
+
+  }
+  input{
+    padding: 20px 200px;
+    margin: 20px;
+    text-align: left;
+  }
+  div a{
+    background-color: #00509d;
+    /* margin-top:40px; */
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: #fdc500;
+  }
+  div a:hover{
+    background-color: #fdc500;
+    /* margin-top:40px; */
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: #00509d;
+  }
+  .margenboton{
+    margin-left: 440px;
+    margin-top: 20px;
+  }
+  
+   footer{
+    padding: 20px;
+    background-color: #00509d;
+    border-top:  5px solid #fdc500;
+   }
+   footer div{
+    align-items: center;
+    justify-content: space-between;
+    
+   }
+   .redes{
+    text-align: center;
+  }
+  footer div a{
+    margin: 0px 1%;
+  }
+
+ /* .margen-top{
+  margin-top: 200px;
+
+  } */

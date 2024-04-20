@@ -1,0 +1,30 @@
+body{
+    background-color: blueviolet;
+}
+
+
+@media (min-width: 576px) {
+    body{
+        background-color: red;
+    }
+ }
+@media (min-width: 768px) {
+    body{
+        background-color: black;
+    }
+ }
+@media (min-width: 992px) { 
+    body{
+        background-color: aqua;
+    }
+}
+@media (min-width: 1200px) { 
+    body{
+        background-color: aquamarine;
+    }
+}
+@media (min-width: 1400px) { 
+    body{
+        background-color: brown;
+    }
+}

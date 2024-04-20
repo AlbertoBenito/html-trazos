@@ -1,0 +1,28 @@
+.flex {
+  display: flex;
+  /* gap: 20px; */
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-image: url(../IMAGENES/imagen3.jpeg);
+}
+section {
+  width: 80%;
+  margin: 50px auto;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+* {
+  box-sizing: border-box;
+}
+section > div {
+  width: 25%;
+  padding: 20px;
+}
+section div div {
+  background-color: chocolate;
+  border: 10px solid white;
+}

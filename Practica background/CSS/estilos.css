@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: antiquewhite;
+}
+a {
+  text-decoration: none;
+}
+.derecha {
+  text-align: right;
+}
+.centro {
+  text-align: center;
+}
+header {
+  padding: 20px;
+}
+.nav {
+  background-color: burlywood;
+
+  padding: 15px;
+  margin: 10px 30%;
+}
+nav a {
+  background-color: burlywood;
+  padding: 0 10%;
+}
+
+#banner {
+  background: url(../IMAGENES/parqueg.jpeg);
+  padding: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section a {
+  background-color: antiquewhite;
+  padding: 20px;
+  text-align: right;
+  margin-left: 80%;
+  margin-top: 40%;
+}
+
+.segunda {
+  background-color: antiquewhite;
+  padding: 30px;
+  margin: 20px 20%;
+}
+#banner h2 {
+  background-color: antiquewhite;
+  text-align: right;
+  padding: 10px;
+  margin-left: 60%;
+}
+#banner h2 a {
+  padding: 20px;
+  text-align: right;
+  margin: 40px;
+}
+li {
+  margin-top: 15px;
+}
+/* .margen50{
+  margin-top: 50px;
+} */
+h2 {
+  margin-bottom: 30px;
+}
+p {
+  margin-top: 30px;
+}
+footer {
+  background-color: antiquewhite;
+}
+footer img {
+  margin-left: 30%;
+  padding-top: 15px;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+footer nav {
+  background-color: burlywood;
+  padding: 15px;
+  margin: 20px 30%;
+}
+footer nav a {
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(
+      90deg,
+      rgba(107, 184, 47, 1) 5%,
+      rgba(149, 71, 204, 1) 46%,
+      rgba(0, 212, 255, 0.4850533963585434) 100%
+    ),
+    url(../IMAGENES/patron.jpeg);
+}
+h1 {
+  color: antiquewhite;
+  padding: 20px;
+  width: 50%;
+}
+#banner1 {
+  background: url(../IMAGENES/imagen1.png);
+  padding: 100px;
+  width: 80%;
+  margin: 50px auto;
+  /* background-attachment: fixed; */
+  background-position: bottom;
+}

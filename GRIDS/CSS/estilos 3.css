@@ -1,0 +1,94 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+  
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.pagina{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "cabecera"
+    "primera"
+    "segunda"
+    "tercera"
+    "pie";
+}
+.header{
+    text-align: center;
+    grid-area: cabecera;
+}
+.gris{
+    background-color: grey;
+    grid-area: primera;
+}
+.naranja{
+    background-color: orange;
+    grid-area: segunda;
+}
+.negro{
+    background-color: black;
+    color: white;
+    grid-area: tercera;
+}
+.footer{
+    text-align: center;
+    grid-area: pie;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIAS */
+@media (min-width: 576px) { } 
+@media (min-width: 768px) { 
+    nav a{
+        display: inline-block;
+        
+    }
+    .pagina{
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 
+        "cabecera cabecera"
+        "primera segunda"
+        "tercera segunda"
+        "pie pie";
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+} 
+@media (min-width: 992px) { } 
+@media (min-width: 1200px) {
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+    }
+    .pagina{
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 
+        "cabecera cabecera"
+        "primera segunda"
+        "tercera tercera"
+        "pie pie";
+    }
+ } 
+@media (min-width: 1400px) { }

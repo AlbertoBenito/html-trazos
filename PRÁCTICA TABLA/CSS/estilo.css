@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  background-color: black;
+  padding: 15px;
+}
+header nav a {
+  color: white;
+  padding: 0 40px;
+}
+header nav a:hover {
+  color: black;
+  background-color: white;
+  padding: 15px 40px;
+}
+.centrado {
+  text-align: center;
+}
+.derecha {
+  text-align: right;
+}
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+#banner {
+  background: url(../IMAGENES/entrada.png);
+  padding: 250px;
+  background-position: center;
+}
+.primero {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin: 0 40%;
+  padding-bottom: 70px;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+a{
+text-decoration: none;
+}
+img{ max-width: 100%;
+}
+
+body{
+    background-color: rgb(240, 237, 237);
+    color: black;
+}
+
+header,footer{
+    background-color: white;
+    text-align: center;
+    /* border: 15px double brown;
+    padding: 80px;
+    margin: 30px; */
+}
+
+nav{
+   background-color: brown;
+   margin-top: 20px;
+ /* padding: 15px 0;
+  margin-top: 20px;
+  display: block; */
+
+}
+
+nav a{
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    display: inline-block
+
+}
+
+nav a:hover{
+    color: brown;
+    background-color: white;
+}
+.contenedor {
+    width: 70%;
+    margin: auto;
+}
+section.contenedor{
+    margin: 50px auto;
+}
+
+.servicios * {
+    margin: 20px 0;
+}
+.servicios {
+    background-color: grey;
+    padding: 20px;
+    color: aliceblue;
+
+}
+.servicios a {
+    background-color: brown;
+    color: antiquewhite;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: inline-block;
+}
+.servicios a:hover{
+    background-color: antiquewhite;
+    color: brown;
+}
+
+.servicios div{
+    text-align: center;
+}

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.cabecera{
+    margin: 0;
+    background-color: orange;
+}
+.cabecera img{
+    margin: 0px 0 0 50px;
+}
+
+.barra {
+  text-align: right;
+}
+header nav {
+  background-color: antiquewhite;
+  margin: 15px 0 0 0;
+  padding: 15px;
+}
+nav a {
+  text-align: center;
+  color: black;
+  padding: 15px 50px;
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+}
+.entrada {
+  margin-top: 0;
+}
+.seccionuno {
+  background-color: rgb(255, 220, 154);
+  margin: 30px 500px;
+  padding: 30px;
+}
+.seccionuno h2 {
+  margin-bottom: 15px;
+}
+section img {
+  text-align: center;
+}
+.secciondos {
+  background-color: rgb(255, 220, 154);
+  margin: 30px 500px;
+  padding: 30px;
+}
+.secciondos ul li{
+    margin-top: 10px
+
+}
+.secciondos h3 {
+  margin-bottom: 15px;
+}
+
+.secciontres {
+  background-color: rgb(255, 220, 154);
+  margin: 30px 500px;
+  padding: 30px;
+}
+.secciontres h3 {
+  margin-bottom: 15px;
+}
+.secciontres img{
+    text-align: center;
+}
+.pie{
+    margin: 0;
+    background-color: orange;
+}
+.pie img{
+    margin: 0px 0 0 50px;
+}
+footer h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+footer nav{ 
+    text-align: center;
+}
+section p {
+  margin-top: 15px;
+}
+div {
+  background-color: rgb(255, 200, 97);
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.secciontres div {
+  text-align: center;
+}
+.secciontres img{
+    max-width: 40%;
+}

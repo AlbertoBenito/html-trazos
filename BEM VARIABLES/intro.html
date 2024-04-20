@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM VARIABLES</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+</head>
+<body>
+
+    <header class="header flex alinear-items-extremos alinear-items-v">
+        <a class="header__link" href=""> <img class="header__logo" src="./IMG/logo.jpeg" alt=""></a>
+        <nav class="nav">
+            <a class="nav__link nav__link--activo" href="">Servicios</a>
+            <a class="nav__link" href="">Empresa</a>
+            <a class="nav__link" href="">Noticia</a>
+        </nav>
+        <button class="header__bag"><i class="bi bi-bag"></i></button>
+
+    </header>
+    
+
+
+    <section class="banner contenedor">
+        <img class="banner__img" src="./IMG/imagenbanner.webp" alt="">
+        <div class="banner__contenido">
+        <p class="banner__titular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minus explicabo aut blanditiis, nesciunt asperiores numquam nemo sunt magni incidunt amet suscipit cumque obcaecati beatae eaque voluptas accusantium qui possimus?</p>
+        <a class="btn btn--banner" href="">Más info</a>
+    </div>
+    </section>
+
+
+
+    <section class="contenedor flex wrap productos">
+        <h2 class="productos__titular col-12 centrar-texto">Productos</h2>
+        <div class="col-3">
+            <div class="productos__card productos__card--oferta centrar-texto"><span>REBAJADO</span>
+            <h3 class="productos__nombre">Lorem ipsum dolor sit amet</h3>
+            <img class="productos__img" src="./IMG/producto600x400.jpeg" alt="">
+            
+            <button class="btn productos__btn">Comprar</button>
+            </div>
+    </div>
+
+    <div class="col-3">
+        <div class="productos__card  centrar-texto">
+        <h3 class="productos__nombre">Lorem ipsum dolor sit amet</h3>
+        <img class="productos__img" src="./IMG/producto600x400.jpeg" alt="">
+        
+        <button class="btn productos__btn">Comprar</button>
+        </div>
+</div>
+
+<div class="col-3">
+    <div class="productos__card  centrar-texto">
+    <h3 class="productos__nombre">Lorem ipsum dolor sit amet</h3>
+    <img class="productos__img" src="./IMG/producto600x400.jpeg" alt="">
+    
+    <button class="btn productos__btn">Comprar</button>
+    </div>
+</div>
+
+<div class="col-3">
+    <div class="productos__card  centrar-texto">
+    <h3 class="productos__nombre">Lorem ipsum dolor sit amet</h3>
+    <img class="productos__img" src="./IMG/producto600x400.jpeg" alt="">
+    
+    <button class="btn productos__btn">Comprar</button>
+    </div>
+</div>
+
+</section>
+
+
+
+
+<section class="empresa contenedor flex">
+    <div class="col-6"><img class="empresa__img empresa_img--grande" src="./IMG/textil800x800.png" alt=""></div>
+    <div class="col-6 flex wrap"> <h2 class="col-12 empresa__titular">Sobre nostros</h2>
+    <div class="col-6"><img class="empresa__img" src="./IMG/900x500-1.jpeg" alt=""></div>
+    <div class="col-6"><p class="empresa__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nobis sit accusamus deleniti.</p></div>
+    <div class="col-6"><img class="empresa__img" src="./IMG/900x500-2.jpeg" alt=""></div>
+    <div class="col-6"><p class="empresa__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nobis sit accusamus deleniti.</p></div>
+</div>
+</section>
+
+
+
+
+
+ <section class="contenedor flex wrap blog">
+    <h2 class="col-12 blog__titular centrar-texto">BLOG</h2>
+    <div class="col-4">
+      <div class="post"> 
+        <a href="">
+        <div class="post__picture">
+          <img class="post__img" src="./IMG/800x500post.webp" alt="" />
+          <span class="post__search"><i class="bi bi-search"></i></span>
+        </div></a>
+        <a href=""><p class="post__texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sit? Totam distinctio, labore magnam quo
+          numquam unde aut tempore quisquam cupiditate iste eos. Hic, officiis unde vel repellendus sequi qui.
+        </p>
+      </div></a>
+    </div>
+    <div class="col-4">
+      <div class="post"> 
+        <a href="">
+        <div class="post__picture">
+          <img class="post__img" src="./IMG/800x500post.webp" alt="" />
+          <span class="post__search"><i class="bi bi-search"></i></span>
+        </div></a>
+        <a href=""><p class="post__texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sit? Totam distinctio, labore magnam quo
+          numquam unde aut tempore quisquam cupiditate iste eos. Hic, officiis unde vel repellendus sequi qui.
+        </p>
+      </div></a>
+    </div>
+    <div class="col-4">
+      <div class="post"> 
+        <a href="">
+        <div class="post__picture">
+          <img class="post__img" src="./IMG/800x500post.webp" alt="" />
+          <span class="post__search"><i class="bi bi-search"></i></span>
+        </div></a>
+        <a href=""><p class="post__texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sit? Totam distinctio, labore magnam quo
+          numquam unde aut tempore quisquam cupiditate iste eos. Hic, officiis unde vel repellendus sequi qui.
+        </p>
+      </div></a>
+    </div>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <section class="footer__social centrar-texto">
+      <a class="footer__link" href=""><i class="bi bi-instagram"></i></a>
+      <a class="footer__link" href=""><i class="bi bi-linkedin"></i></a>
+      <a class="footer__link" href=""><i class="bi bi-facebook"></i></a>
+    </section>
+    <section class="contenedor contenedor--footer footer__contenido flex alinear-items-v">
+      <div class="col-4"><p class="footer__texto ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur repellat asperiores ipsum expedita</p></div>
+      <div class="col-4 centrar-texto"> <img class="footer__logo" src="./IMG/logo.jpeg" alt=""></div>
+      <div class="col-4"><p class="footer__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nemo neque perspiciatis nisi error tempori</p></div>
+    </section>
+  </footer>
+</body>
+</html>

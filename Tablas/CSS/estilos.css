@@ -1,0 +1,50 @@
+#horario {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+td,
+th {
+  border: 1px solid black;
+}
+tr {
+  height: 60px;
+}
+tr td:first-child {
+  background-color: gray;
+}
+tr:first-child {
+  background-color: black;
+  color: white;
+}
+.mat {
+  background-color: blue;
+}
+.etre {
+  background-color: green;
+}
+.fis {
+  background-color: greenyellow;
+}
+.le {
+  background-color: orange;
+}
+.in {
+  background-color: aquamarine;
+}
+.fil {
+  background-color: grey;
+}
+.ciso {
+  background-color: pink;
+}
+.qui {
+  background-color: rgb(106, 193, 106);
+}
+.edfi {
+  background-color: red;
+}
+.des {
+  background-color: yellow;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    background-color: black;
+    color: wheat;
+}
+
+.azul{
+    background-color: blue;
+}
+.morado{
+    background-color: blueviolet;
+}
+.naranja{
+    background-color: orange;
+}
+.verde{
+    background-color: green;
+}
+div{
+    border: 2px solid white;
+    height: 100px;
+}

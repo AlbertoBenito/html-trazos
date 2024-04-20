@@ -1,0 +1,55 @@
+a[href="https://elpais.com/"]
+{
+  background-color: blueviolet;
+}
+[title="pais"] {
+  border: 2px solid;
+}
+[title="pais"]::before {
+  content: "<<";
+  color: yellow;
+}
+[title="pais"]::after {
+  content: ">>";
+  color: yellow;
+}
+[title^="m"] {
+  background-color: brown;
+}
+
+input {
+  background-color: blueviolet;
+  padding: 5px;
+}
+input::placeholder {
+  color: blueviolet;
+}
+[type="text"] {
+  background-color: azure;
+}
+[type="text"]:focus {
+  background-color: burlywood;
+}
+section:first-child {
+  background-color: chocolate;
+}
+/* section:last-child {
+  background-color: chocolate;
+} */
+
+section:nth-child(3) {
+  background-color: chocolate;
+}
+ul li:nth-child(4) {
+  background-color: yellow;
+}
+[title="mundo"]::after {
+  content: ":" attr(href);
+}
+section div:first-child h2::first-letter {
+  font-size: 50px;
+  color: red;
+}
+section img{
+  margin-left: 30px;
+}
